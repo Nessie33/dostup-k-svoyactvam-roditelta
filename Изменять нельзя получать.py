@@ -32,7 +32,7 @@ class Vehicle:
 
 
 class Sedan(Vehicle):
-    pass
+    __PASSENGERS_LIMIT = 5
 
 
 vehicle1 = Sedan('Fedos', 'Toyota Mark II', 'blue', 500)
